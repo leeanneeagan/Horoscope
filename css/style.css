@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #fdf6e3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('/Users/leeanneeagan/Desktop/Resilient Coders Class /WEEK 5/Horoscope/img/bkgnd.jpg');
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.horoscope-container {
+    background-color: rgb(218,234,253);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    width: 350px;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(155,0,180);
+}
+
+.horoscope-form {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+input, select, textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+textarea {
+    resize: none;
+}
+
+button {
+    margin-top: 20px;
+    padding: 12px;
+    background-color: #616bff;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ffffff;
+}
